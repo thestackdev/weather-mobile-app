@@ -11,11 +11,12 @@
   },
   "dependencies": {
     "axios": "^0.24.0",
+    "moment": "^2.29.1",
     "react": "17.0.2",
     "react-native": "0.66.4",
     "react-native-bootsplash": "^4.0.2",
     "react-native-dotenv": "^3.3.1",
-    "react-native-global-font": "^1.0.3",
+    "react-native-geolocation-service": "^5.3.0-beta.4",
     "react-native-svg": "^12.1.1"
   },
   "devDependencies": {
