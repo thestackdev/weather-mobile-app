@@ -13,7 +13,9 @@ const Weather = ({ data }) => {
         <View style={Styles.TemperatureMain}>
           <View style={Styles.Column}>
             <Image
-              source={{ uri: 'http://openweathermap.org/img/wn/10d@2x.png' }}
+              source={{
+                uri: `http://openweathermap.org/img/wn/${data.weather[0].icon}.png`,
+              }}
               style={{ height: 75, width: 75 }}
             />
             <Text style={Styles.TemperatureDescription}>
